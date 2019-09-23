@@ -13,6 +13,8 @@ The following codes load these files:
 
 The codes are to be run in logical order according to their numbers, but do not depend on any of the above scripts being run before. The ordering respects how results are presented in the paper.
 
+Data is available from Dryad at: https://doi.org/10.5061/dryad.qbzkh18cq
+
 input_file_1.csv contains cleaned data for accepted and rejected loans
 
 input_file_2.csv contains cleaned data for accepted loans for default analysis
