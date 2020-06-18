@@ -6,7 +6,7 @@ import numpy as np
 
 print('reading file')
 
-data = pd.read_csv('../input_file_1.csv', sep = ',', index_col=0)
+data = pd.read_csv('../data/input_file_1.csv.zip', sep = ',', index_col=0, compression='zip')
 
 print('file shape', data.shape)
 

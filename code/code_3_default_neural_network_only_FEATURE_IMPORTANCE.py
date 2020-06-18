@@ -29,7 +29,7 @@ warnings.filterwarnings("ignore")
 
 #######################################################
 
-data = pd.read_csv('../input_file_2.csv', sep = ',', index_col=0)
+data = pd.read_csv('../data/input_file_2.csv.zip', sep = ',', index_col=0, compression='zip')
 
 '''parse column to date format'''
 
